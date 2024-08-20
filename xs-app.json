@@ -3,8 +3,8 @@
   "authenticationMethod": "route",
   "routes": [
     {
-      "source": "^/rolecollection/(.*)$",
-      "target": "$1",
+      "source": "^/sap/(.*)$",
+      "target": "/sap/$1",
       "destination": "xsuaa-api",
       "authenticationType": "xsuaa",
       "csrfProtection": false

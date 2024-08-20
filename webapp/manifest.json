@@ -31,7 +31,7 @@
     },
     "dataSources": {
 			"rolecollections": {
-				"uri": "/rolecollection/sap/rest/authorization/v2/rolecollections",
+				"uri": "/sap/rest/authorization/v2/rolecollections",
 				"type": "JSON"
 			}
 		}

@@ -17,8 +17,7 @@ server:
             - /test-resources
           url: https://ui5.sap.com
         backend:
-          - path: /rolecollection/sap/rest/authorization/v2/rolecollections
-            pathPrefix: /sap/rest/authorization/v2/rolecollections
+          - path: /sap
             url: https://api.authentication.us10.hana.ondemand.com
             destination: xsuaa-api
     - name: fiori-tools-appreload
